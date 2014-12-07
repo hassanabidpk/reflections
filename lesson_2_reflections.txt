@@ -1,0 +1,27 @@
+Git commands (Udacity Lesson 2)
+
+Branching
+
+$ git checkout coins
+$ git log   (top are most recent ones)
+Tip : Exit git log —> press ‘q’ or ‘h’ for help
+
+$ git checkout -b branch_name (if you want to retain commits)
+equivalent to running two commands
+$ git branch new_branch_name
+$ git checkout new_branch_name
+
+Merge 
+$get merge branch1 branch2 
+
+in case of conflict
+1-  git merge —abort
+
+2- git status 
+
+$git show commit_id   ( show diff between commit and its parent)
+$git branch -d branch_name ( delete label of the branch)
+
+
+$ git log -n 1  ( show last commit only)
+
